@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+.home-bg-container {
+  background-color: #152850;
+  height: 100vh;
+  background-size: cover;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logout-btn {
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 8px;
+  height: 40px;
+  padding: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.body-container {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+.digital-card {
+  height: 50vh;
+  padding-top: 20px;
+}
